@@ -9,7 +9,9 @@ function Couresoul() {
     <div className='carusel'>
        <div className="carouselInner"  style={{backgroundImage : `url(${iamges[currImg].url})`}}>
          <div className="left" onClick={()=>currImg > 0 && setCurrImg(currImg-1)}><KeyboardArrowLeftIcon/></div>
-         <div className="center"></div>
+         <div className="center">
+           <h1>{iamges[currImg].title}</h1>
+         </div>
          <div className="right" onClick={()=>currImg < iamges.length-1 && setCurrImg(currImg+1)}>
          <NavigateNextIcon/>
            

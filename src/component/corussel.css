@@ -29,6 +29,19 @@
     color: white;
     cursor: pointer;
 }
+h1 {
+    align-self: flex-end;
+    margin-bottom: 0;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px #000, 
+    3px 3px 5px rgb(150, 150, 208);
+    text-transform: capitalize;
+    border: 2px solid rgb(88, 5, 5);
+    padding: 5px;
+ border-width: 0px 0px 2px 0px;
+    border-radius: 2px;
+
+}
 .carouselInner .center {
     flex: 80%;
     height: 100%;
